@@ -2,6 +2,7 @@ const Youch = require('youch');
 const express = require('express');
 require('dotenv').config();
 require('express-async-errors');
+require('./database');
 
 const routes = require('./routes');
 
