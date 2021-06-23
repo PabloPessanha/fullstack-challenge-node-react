@@ -1,12 +1,11 @@
-const { Model } = require('sequelize');
-const Sequelize = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 
 class Director extends Model {
   static init(sequelize) {
     super.init({
-      name: Sequelize.STRING,
-      email: Sequelize.STRING,
-      passwordHash: Sequelize.STRING,
+      name: DataTypes.STRING,
+      email: DataTypes.STRING,
+      passwordHash: DataTypes.STRING,
     }, { sequelize, timestamps: false });
   }
 }
