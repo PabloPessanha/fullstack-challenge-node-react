@@ -6,6 +6,9 @@
   "repository": "https://github.com/PabloPessanha/fullstack-challenge-pablo-pessanha",
   "author": "Pablo Pessanha",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
