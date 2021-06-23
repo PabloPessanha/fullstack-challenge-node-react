@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend of schoolManager project",
+  "main": "index.js",
+  "repository": "https://github.com/PabloPessanha/fullstack-challenge-pablo-pessanha",
+  "author": "Pablo Pessanha",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2"
+  }
+}
