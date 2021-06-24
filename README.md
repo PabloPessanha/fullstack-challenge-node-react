@@ -1,16 +1,4 @@
-# Plataforma A+ - Desafio FullStack
-
-Estamos à procura de full-stack Developers para fazerem parte do nosso time e contribuírem com a transformação digital das escolas.
-
-## Quem somos
-
-A Plataforma A+ é uma EdTech que une um grupo de engenheiros de softwares, designers, analistas e professores apaixonados em gerar inovação para transformar e potencializar a capacidade de aprendizagem do ser humano.
-
-Siga-nos no [Linkedin](https://www.linkedin.com/company/plataformaamais).
-
-Acompanhe nossas vagas no [Linkedin](https://www.linkedin.com/company/plataformaamais/jobs/).
-
----
+# Desafio FullStack
 
 ## Desafio
 
@@ -40,12 +28,6 @@ Desenvolver uma aplicação WEB ou APP, para controlar Alunos e Professores em s
 - O frontend poderá ser desenvolvido com JavaScript, Typescript, Dart `(No caso de um app Flutter como frontend)` ou qualquer framework/ferramenta que suporte ou utilize essas tecnologias.
 - Para camada de persistência, utilize NoSQL como o MongoDB ou um SGBD relacional como o PostgreSQL. A modelagem de documentos ou entidades é livre e de acordo com o escolhido e utilizado pela sua solução.
 - O que for submetido, mesmo que incompleto, deve funcionar.
-
-### Instruções
-
-1. Faça o **`Fork`** deste repositório;
-2. Nomeie o projeto da seguinte maneira: **fullstack-challenge-`nome-sobrenome`**;
-3. Ao concluir o desafio, publique em seu próprio repositório, **com acesso `público` habilitado** e envie o link para os e-mails <alex.souza@plataformaamais.com.br> e/ou <bruno.souza@plataformaamais.com.br>.
 
 ### Considerações gerais
 
@@ -80,4 +62,3 @@ Desenvolver uma aplicação WEB ou APP, para controlar Alunos e Professores em s
 - Uso de patterns.
 - Abordagem para desenvolvimento de software.
 
-**Boa sorte!**
