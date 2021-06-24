@@ -15,6 +15,7 @@
     "express": "^4.17.1",
     "pg": "^8.6.0",
     "pg-hstore": "^2.3.4",
+    "typeorm": "^0.2.34",
     "yup": "^0.32.9"
   },
   "devDependencies": {
