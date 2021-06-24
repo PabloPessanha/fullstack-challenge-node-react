@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
 const dbConfig = require('../config/database');
-const { Director } = require('./models');
+const allModels = require('./models');
 
-const models = [Director];
+const models = Object.values(allModels);
 
 class Database {
   constructor() {
@@ -12,7 +12,10 @@ class Database {
   init() {
     this.connection = new Sequelize(dbConfig);
 
-    models.map((model) => model.init(this.connection));
+    models.forEach((model) => {
+      model.init(this.connection);
+      if (model.associate) model.associate(this.connection.models);
+    });
   }
 }
 
