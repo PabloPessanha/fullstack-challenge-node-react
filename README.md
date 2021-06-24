@@ -1,6 +1,8 @@
 # Desafio FullStack
 
-## Desafio
+Desafio elaborado e prestado pela empresa [Plataforma A+](https://www.plataformaamais.com.br/).
+
+## Proposta
 
 Desenvolver uma aplicação WEB ou APP, para controlar Alunos e Professores em suas Turmas, referentes às séries do Ensino Fundamental, em uma Escola Pública.
 
@@ -38,19 +40,6 @@ Desenvolver uma aplicação WEB ou APP, para controlar Alunos e Professores em s
 - Lembre-se que iremos analisar seu desafio e terá a chance de explicar sua estratégia para pessoas de tecnologia.
 - Teremos uma conversa agradável e objetiva, onde falaremos sobre tech, com base neste desafio.
 
-### Critérios de avaliação
-
-- Organização.
-- Manutenibilidade.
-- Legibilidade, limpeza, clareza do código​.
-- Resultado funcional.
-- Flexibilidade da aplicação:​ Parametrização, agnóstico ao ambiente, escalabilidade, etc.
-- Segurança​.
-- Documentação objetiva.
-- Cobertura de código.
-- Escolhas técnicas e suas justificativas.
-- Histórico de commits​.
-
 ### Diferenciais
 
 - Utilizar layout responsivo.
@@ -61,4 +50,3 @@ Desenvolver uma aplicação WEB ou APP, para controlar Alunos e Professores em s
 - Uso de TDD.
 - Uso de patterns.
 - Abordagem para desenvolvimento de software.
-
