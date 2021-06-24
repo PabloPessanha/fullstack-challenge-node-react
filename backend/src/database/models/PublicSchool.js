@@ -4,8 +4,7 @@ class PublicSchool extends Model {
   static init(sequelize) {
     super.init({
       name: DataTypes.STRING,
-      directorId: DataTypes.STRING,
-    }, { sequelize, timestamps: false });
+    }, { sequelize, timestamps: false, tableName: 'public_schools' });
   }
 
   static associate(models) {

@@ -15,7 +15,7 @@ module.exports = {
       },
       director_id: {
         type: Sequelize.INTEGER,
-        refences: { mode: 'directors', key: 'id' },
+        references: { model: 'directors', key: 'id' },
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
         allowNull: false,
