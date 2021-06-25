@@ -2,7 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('directors')
 class Director {
-  @PrimaryGeneratedColumn('increment')
+  @PrimaryGeneratedColumn()
   director_id: number;
 
   @Column()

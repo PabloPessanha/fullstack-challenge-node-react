@@ -8,7 +8,9 @@ export default class CreateDirectors1624577641176 implements MigrationInterface 
         columns: [
           {
             name: 'director_id',
-            type: 'integer',
+            type: 'int',
+            isGenerated: true,
+            generationStrategy: 'increment',
             isPrimary: true,
           },
           {
